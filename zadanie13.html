@@ -2,13 +2,10 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <title>Tabelki</title>
+    <title>Tabele zespolone</title>
     <meta charset="UTF-8" />
-    <meta name="author" content="Igor Filipek" />
-    <meta name="robots" content="all" />
-
+    <meta name="author" content="Igor Zielosko" />
     <style>
-        
         table, th, td {
             border: 1px solid black;
             border-collapse: collapse;
@@ -30,8 +27,7 @@
     <table style="text-align: center;">
         <tr>
             <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th>
-        </tr>
-        <tr>
+        </tr><tr>
             <th>2</th><td>a</td><td bgcolor="D1EFC8">b</td><td bgcolor="D1EFC8">c</td><td>d</td><td>e</td>
         </tr>
         <tr>
@@ -42,8 +38,7 @@
         </tr>
         <tr>
             <th>5</th><td bgcolor="A6BF9F">p</td><td bgcolor="A6BF9F">q</td><td bgcolor="A6BF9F">r</td><td>s</td><td>t</td>
-        </tr>
-        <tr>
+        </tr><tr>
             <th>6</th><td bgcolor="A6BF9F">u</td><td bgcolor="A6BF9F">v</td><td bgcolor="A6BF9F">w</td><td>y</td><td>z</td>
         </tr>
     </table>
@@ -65,8 +60,7 @@
             <th>5</th><td bgcolor="A6BF9F" colspan="3" rowspan="2">p, q, r, u, v, w</td><td>s</td><td>t</td>
         </tr>
         <tr>
-            <th>6</th><td>y</td><td>z</td>
-        </tr>
+            <th>6</th><td>y</td><td>z</td></tr>
     </table>
     <h1>Tabela 3</h1>
     <table style="text-align: center;">
@@ -77,16 +71,15 @@
             <th>2</th><td>a</td><td>b</td><td>c</td><td>d</td><td>e</td>
         </tr>
         <tr>
-            <th>3</th><td bgcolor="C1DBB9" colspan="4">f, g, h, i</td><td>j</td>
+            <th>3</th><td>f</td><td>g</td><td>h</td><td bgcolor="C1DBB9" colspan="2" rowspan="4">i, j, n, o, s, t, y, z</td>       
+	 </tr>
+        <tr>
+            <th>4</th><td>k</td><td>l</td><td>m</td></tr>
+        <tr>
+            <th>5</th><td>p</td><td>q</td><td>r</td>
         </tr>
         <tr>
-            <th>4</th><td>k</td><td>l</td><td>m</td><td>n</td><td>o</td>
-        </tr>
-        <tr>
-            <th>5</th><td>p</td><td>q</td><td>r</td><td>s</td><td>t</td>
-        </tr>
-        <tr>
-            <th>6</th><td>u</td><td>v</td><td>w</td><td>y</td><td>z</td>
+            <th>6</th><td>u</td><td>v</td><td>w</td>
         </tr>
     </table>
 </center>
